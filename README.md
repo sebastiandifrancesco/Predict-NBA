@@ -13,7 +13,7 @@ Initially the classifier models used were a decision tree and a random forest. T
 
 After that logistic regression, decision tree (with different method), naive bayes, K-nearest neighbors, random forest (with different method), and xgboost classifiers were applied to the data and their general accuracies (not evaluated with F1 score but used accuracy_score method) were evaluated. The random forest had an accuracy score of 0.9303030303030303.
 
-![Image description](link-to-image)
+![Image description](https://github.com/sebastiandifrancesco/Predict-NBA-Game-Outcomes/blob/main/models_OOP_template1.PNG)
 
 Finally I used the tuned random forrest model on the 2018-2019 season gathering all the data in the same way I did for the 2013-2014 season. The baseline for this season was home teams won 58.76% of the time. The tuned random forrest model when applied gave an accuracy of 79.4% (F1 score was 0.79). This needs to be further explored to understand why the accuracy was so much higher than before.
 
