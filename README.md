@@ -7,3 +7,8 @@ The purpose of this project was to explore NBA data from https://www.sports-refe
 - The rankings of each team based on last years ladder. 
 - The team name.
 
+Initially the classifier models used were a decision tree and a random forest. They were fed different data at different points along the way but ultimately the data above gave the best general accuracy (evaluated with F1 scores). A bar graph was generated to visualize the performance of these different classifiers with different data. From the visual you can see that the random forest model generated the most generally accurate resutls (according to F1 score).
+
+
+
+After that logistic regression, decision tree (with different method), naive bayes, K-nearest neighbors, random forest (with different method), and xgboost classifiers were applied to the data and their general accuracies (not evaluated with F1 score but used accuracy_score method) were evaluated. 
