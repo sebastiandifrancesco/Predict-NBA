@@ -11,7 +11,7 @@ Initially the classifier models used were a decision tree and a random forest. T
 
 ![Image description](https://github.com/sebastiandifrancesco/Predict-NBA-Game-Outcomes/blob/main/decition_tree_random_forest_models.PNG)
 
-After that logistic regression, decision tree (with different method), naive bayes, K-nearest neighbors, random forest (with different method), and xgboost classifiers were applied to the data and their general accuracies (not evaluated with F1 score but used accuracy_score method) were evaluated. The random forest had an accuracy score of 0.9303030303030303. It can be concluded that the random forest classifier is probably the best classifier to use to predict future NBA games when feeding the model the data above.
+After that logistic regression, decision tree (with different method), naive bayes, K-nearest neighbors, random forest (with different method), and xgboost classifiers were applied to the data and their general accuracies (not evaluated with F1 score but used accuracy_score method) were evaluated. The xgboost had the best accuracy with a score of 0.65.
 
 ![Image description](https://github.com/sebastiandifrancesco/Predict-NBA-Game-Outcomes/blob/main/models_OOP_template1.PNG)
 
