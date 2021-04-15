@@ -1,4 +1,4 @@
-# Predict-NBA-Game-Outcomes
+# Predict-NBA
 
 The purpose of this project was to explore NBA data from https://www.sports-reference.com/ and to build the best classification machine learning model possible on the extracted data. Data was extracted from the 2013-2014 season from the months of October to April as well as from the 2012-2013 season (the ladder for getting the rankings from the previous year). The baseline home win percentage for this season was 56.83% and the goal was to generate a model that would have better returns than this baseline. The features that were eventually selected to feed into the models were:
 
